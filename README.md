@@ -123,3 +123,20 @@ Update `README.md`:
 
 Return only the updated `README.md`.
 ```
+
+### Prompt 6
+
+now Short reflection paragraph
+```
+Write a 6–8 sentence paragraph I can paste into the README describing:
+- How I used the assistant/Copilot (prompts + iterative refinement),
+- What the assistant produced,
+- What I validated locally (compile/run/tests),
+- One or two lessons learned about prompting and a next-step extension idea.
+
+Return only the paragraph.
+```
+
+## Reflection
+
+I used Copilot through a sequence of clear prompts and iterative refinements, starting from a basic single-file Java surveys app and then adding features step by step. Instead of asking for everything at once, I requested focused changes (persistence, UX improvements, tests, and documentation), which made each iteration easier to review and correct. The assistant produced `Project.java` with the required classes and menu flow, added serialization-based persistence to `surveys.dat`, and created `TestSurvey.java` for a save/load roundtrip check. I validated the output locally by compiling and running the app with `javac Project.java` and `java Project` (also `java Project.java`), and by compiling/running tests with `javac Project.java TestSurvey.java` and `java TestSurvey`. This process confirmed that the code built successfully and that persistence behavior worked as expected across program restarts. One lesson learned is that prompt specificity strongly affects quality: giving exact constraints, class names, and output format reduced ambiguity and rework. Another lesson is that incremental prompts are better than one large prompt because they support faster verification and safer changes. As a next step, I would extend the app with per-question statistics (for example counts/percentages for repeated answers) and exportable reports for survey results.
