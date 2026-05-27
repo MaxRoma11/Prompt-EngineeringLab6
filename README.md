@@ -68,6 +68,8 @@ Requirements:
 - Keep code runnable with `javac Project.java` and `java Project`.
 
 Return only the full `Project.java` file content.
+<img width="1440" height="900" alt="Screenshot 2026-05-27 at 15 57 52" src="https://github.com/user-attachments/assets/086dfb60-76fe-4470-be16-f4de56c5c475" />
+
 
 ### Prompt 2
 
@@ -82,6 +84,7 @@ Update `Project.java` to persist surveys to `surveys.dat` using Java serializati
 
 Return only the modified `Project.java`.
 ```
+<img width="1440" height="900" alt="Screenshot 2026-05-27 at 15 59 39" src="https://github.com/user-attachments/assets/9fbc2041-1559-4158-96de-6a73b96a6df7" />
 
 ### Prompt 3
 
@@ -96,6 +99,8 @@ Improve console UX in `Project.java`:
 
 Return only the updated `Project.java`.
 ```
+<img width="1440" height="900" alt="Screenshot 2026-05-27 at 16 16 17" src="https://github.com/user-attachments/assets/e92ba9c9-152a-41e2-ae30-59a33e260980" />
+
 
 ### Prompt 4
 
@@ -104,11 +109,14 @@ Alr now Add basic tests
 Add `TestSurvey.java`:
 
 - Programmatically create a survey, add one response, save to disk.
-- Create a fresh `SurveyManager`, load from disk, verify the survey exists and response recorded.
+- Create a fresh `SurveyManager`, load from disk, verify the survey exists and response recorded.<img width="1440" height="900" alt="Screenshot 2026-05-27 at 16 09 53" src="https://github.com/user-attachments/assets/31fc2272-0d29-4e50-8df4-7a1d288b6f8d" />
+
 - Print "TESTS PASSED" on success; print an error and exit non-zero on failure.
 
 Return the full `TestSurvey.java` file content only.
 ```
+<img width="1440" height="900" alt="Screenshot 2026-05-27 at 16 02 23" src="https://github.com/user-attachments/assets/1a71093e-1892-49bc-ba3a-e1ca827b17cb" />
+
 
 ### Prompt 5
 
@@ -136,6 +144,8 @@ Write a 6–8 sentence paragraph I can paste into the README describing:
 
 Return only the paragraph.
 ```
+<img width="1440" height="900" alt="Screenshot 2026-05-27 at 16 09 48" src="https://github.com/user-attachments/assets/a1d59b51-f2fe-4877-bf3e-4e7b2478a9ca" />
+
 
 ## Reflection
 
